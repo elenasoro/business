@@ -1,0 +1,132 @@
+@media (max-width: 1000px) and (min-width: 800px){
+
+  //Styles for adaptive header
+
+  .header__menu .header__menu-item{
+    margin-left: 10px;
+  }
+
+}
+
+
+@media (max-width: 799px) {
+
+  //Styles for adaptive header
+.header{
+  height: auto;
+}
+  .header__container{
+    flex-direction: column;
+
+  }
+  .header__menu-item{
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+  .header__menu-item_selected{
+    width: 100%;
+  }
+  .header__logo-container{
+    margin-top: 10px;
+  }
+
+  //Styles for adaptive feedback
+
+.feedback__blocks{
+  flex-direction: column;
+}
+.feedback__client{
+  width: 100%;
+}
+
+  //Styles for adaptive NEWSLETTER
+
+  .newsletter__form{
+    flex-direction: column;
+    button{width: 100%;}
+  }
+  .newsletter__field-container{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  //Styles for adaptive banner
+
+  .banner__form{
+    flex-direction: column;
+    .banner__field-container{
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  //Styles for adaptive service
+  .service__block{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+    //Styles for adaptive footer
+
+    .footer__menu-container{
+      flex-direction: column;
+    }
+    .footer__menu-item{
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: 0;
+    }
+
+}
+
+
+//Styles for adaptive about-us
+@media (max-width: 1000px){
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us__image{
+    width:100%;
+    margin-top: 60px;
+    img{
+      height: auto;
+    }
+  }
+  .about-us__text{
+    width:100%;
+  }
+  .about-us__container{
+    width: 80%;
+    margin: 0 auto;
+    position: static;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+//Styles for adaptive rate__plan
+  .rate__plans{
+    flex-direction: column;
+  }
+  .rate__plan{
+    width: 100%;
+  }
+
+//Styles for adaptive guide
+  .guide__steps{
+    flex-direction: column;
+    align-items: center;
+  }
+  .guide__step{
+    width: 50%;
+  }
+  .step1:after, .step3:after, .step2:after{
+    display: none;
+  }
+
+
+
+}

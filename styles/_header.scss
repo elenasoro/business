@@ -1,0 +1,38 @@
+.header{
+  width:100%;
+  height: 95px;
+}
+  .header__container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+.header__menu{
+  font-family: $font-Lato;
+  text-transform: uppercase;
+  font-size: 13.5px;
+  color: #868686;
+}
+  .header__menu-item{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    text-align: center;
+    line-height:30px;
+    &:hover{
+      color: black;
+      font-weight: bold;
+    }
+  }
+    .header__menu-item_selected{
+      width: 80px;
+      height: 30px;
+      border-radius: 3px;
+      background-color: #ffbb42;
+      color: white;
+    }
